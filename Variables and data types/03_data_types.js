@@ -18,3 +18,8 @@ console.log(typeof(boo1))
 var boo2 = false
 console.log(boo2);
 console.log(typeof(boo2))
+
+// 4. Null Data Type -->
+var n = null
+console.log(n)
+console.log(typeof(n))
