@@ -1,0 +1,36 @@
+*{
+    background-color: gainsboro;
+    box-sizing: border-box;
+}
+header h1{
+    text-transform: capitalize;
+    text-align: center;
+}
+main .container{
+    display: flex;
+    flex-wrap: wrap;
+}
+main .container > div{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    padding: 1%;
+    font-weight: bold;
+}
+main .container > div:nth-child(odd){
+    background-color: red;
+    color: white;
+}
+main .container > div:nth-child(odd):hover{
+    background-color: blue;
+    color: aqua;
+}
+main .container > div:nth-child(even){
+    background-color: blue;
+    color: aqua;
+}
+main .container > div:nth-child(even):hover{
+    background-color: red;
+    color: white;
+}

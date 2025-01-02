@@ -1,0 +1,18 @@
+*{
+    margin: 2%;
+    background-color: gainsboro;
+    box-sizing: border-box;
+}
+main .container{
+    display: flex;
+}
+main .container .box{
+    height: 200px;
+    width: 200px;
+    background-color: aquamarine;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid blue;
+}

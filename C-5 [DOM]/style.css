@@ -1,0 +1,22 @@
+*{
+    margin: 2%;
+    background-color: coral;
+    box-sizing: border-box;
+}
+footer button{
+    padding: 20px 30px 20px 30px;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
+main .container{
+    display: flex;
+}
+main .container .div{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    text-align: center;
+    padding: 5px;
+    color:white;
+}
